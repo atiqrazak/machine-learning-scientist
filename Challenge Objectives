@@ -1,0 +1,88 @@
+# Predicting Categories of Bank Transaction Data
+
+## Introduction
+At XXX, the objective is to improve how individuals track, analyse, and understand their spending patterns across
+different financial categories in order to support better financial decision-making.
+
+For example, if a user spends \$100 monthly on loan repayments but only earns \$50 monthly income, the system should be
+able to identify this imbalance and provide guidance on managing debt so that total monthly loan repayments do not
+exceed income.
+
+To enable this, bank transactions must be accurately labelled with meaningful categories (e.g. **Loans**, **Payroll**,
+**Restaurants**). Once categorised, transactions can be aggregated to generate insights into spending and income
+patterns and support personalised financial advice.
+
+---
+
+## Assignment Objective
+The goal of this challenge is to **develop a machine learning model that predicts the category of each bank
+transaction** in the provided dataset (`bank_transaction.csv`).
+
+The list of expected transaction categories is available in the `category` column of `bank_transaction.csv`
+(e.g. *Loans*, *Restaurants*, *Supermarkets and Groceries*, *Insurance*).
+
+---
+
+## Provided Datasets
+You are provided with the following files:
+
+### 1. `bank_transaction.csv`
+- Contains user bank transaction records
+- Includes the expected transaction category labels
+
+### 2. `user_profile.csv`
+- Contains a selected subset of users
+- Includes financial profile information for each user
+
+### 3. `data_dictionary.pdf`
+- Provides detailed descriptions and definitions for all columns in the datasets
+
+---
+
+## Expected Deliverables
+The submission should address the following:
+
+- **Exploratory data analysis (EDA)** and how insights inform model selection or feature engineering
+- **Reasoning and justification** for the chosen model architecture or techniques
+- **Functional Python code** that builds and trains the model, with explanations for each major step
+- **Model performance evaluation**, including discussion of effectiveness in predicting transaction categories
+- **Future development plans**, including:
+  - Short-term improvements (next 1 month)
+  - Medium-term improvements (next 3 months)
+
+---
+
+## Rules and Constraints
+- Python must be used to complete this challenge
+- An **IPython notebook** is recommended to combine code, analysis, and commentary
+- Online resources may be referenced, but:
+  - No direct assistance from other people
+  - No copying of external solutions
+- The solution must reflect **original thinking and implementation**
+- Any modelling architecture or technique may be used, provided it is clearly justified
+- The submission deadline is **1 week** from receipt of the challenge
+- The total time spent on the challenge must be disclosed upon completion
+
+---
+
+## Submission Requirements
+Submit a **ZIP file** containing any of the following (as applicable):
+
+- Python notebook (`.ipynb`) that runs end-to-end
+- HTML export of the notebook
+- Additional documentation files
+- Model files (if generated)
+- Custom Python scripts or modules
+- External datasets (only if newly added — do **not** include original assessment data)
+- Visualisations, diagrams, or other supporting materials
+
+---
+
+## Evaluation Tips
+This is an **open-ended challenge**. Submissions will be evaluated based on:
+
+- Clarity and completeness of planning and documentation
+- Code quality and structure
+- Soundness of reasoning and modelling choices
+- Creativity, originality, and practical applicability
+- Quality of analysis and communication
