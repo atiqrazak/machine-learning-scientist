@@ -1,0 +1,31 @@
+# Data Dictionary – `bank_transaction.csv`
+
+## Overview
+`bank_transaction.csv` contains sample bank transaction data for multiple users.  
+Each row represents a single transaction associated with a specific bank account.
+
+## File Description
+- **File name:** `bank_transaction.csv`
+- **Data type:** Transaction-level financial records
+- **Use cases:**  
+  - Transaction analysis  
+  - User spending behavior  
+  - Financial categorization and aggregation  
+
+## Column Definitions
+
+| Column Name  | Description                                  |
+|-------------|----------------------------------------------|
+| `client_id` | Unique identifier for the user               |
+| `bank_id`   | Unique identifier for the bank               |
+| `account_id`| Unique identifier for the bank account       |
+| `txn_id`    | Unique identifier for the transaction        |
+| `txn_date`  | Date the transaction was posted              |
+| `description` | Text description of the transaction        |
+| `amount`    | Monetary value of the transaction            |
+| `category`  | Example category assigned to the transaction |
+
+## Notes
+- All identifiers are assumed to be unique within their respective domains.
+- Transaction amounts may be positive or negative depending on transaction type.
+- Categories are illustrative and may not represent standardized taxonomies.
