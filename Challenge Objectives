@@ -1,7 +1,7 @@
 # Predicting Categories of Bank Transaction Data
 
 ## Introduction
-At XXX, the objective is to improve how individuals track, analyse, and understand their spending patterns across
+The objective is to improve how individuals track, analyse, and understand their spending patterns across
 different financial categories in order to support better financial decision-making.
 
 For example, if a user spends \$100 monthly on loan repayments but only earns \$50 monthly income, the system should be
